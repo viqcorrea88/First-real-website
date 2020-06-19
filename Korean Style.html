@@ -1,3 +1,62 @@
+<head>
+    <link href='https://fonts.googleapis.com/css?family=B612 Mono' rel='stylesheet' type='text/css'>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background: #E8DFE0;
+            font-family: 'B612 Mono', sans-serif;
+        }
+
+        h1 {
+            font-size: 70px;
+            color: #000;
+            text-align: center;
+        }
+
+        .contenedor {
+            width: 100%;
+            margin: auto;
+        }
+
+        img {
+            width: 50%;
+        }
+
+        .persona__columna {
+            margin: 5px;
+        }
+
+        .personas .contenedor {
+            display: grid;
+        }
+        @media(min-width:683px){
+    .personas .contenedor{     
+  grid-template-columns: repeat(2,50%);
+    }
+}
+@media(min-width:455px){
+   .personas .contenedor{
+  grid-template-columns: repeat(3,33.3%);
+    }
+}
+@media(min-width:1366px){
+   .personas .contenedor{
+    
+  grid-template-columns: repeat(4,25%);
+    }
+    .contenedor{
+         width: 1366px;
+    }
+}
+@media(min-width:1200px){
+    .contenedor{
+         width: 1200px;
+    }
+}
+    </style>
+</head>
+
 <section class="container">
 
     <h2>Korean Style</h2>

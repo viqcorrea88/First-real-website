@@ -17,3 +17,35 @@ h1{
 img{
     width: 100%;
 }
+
+.persona__columna {
+    margin: 5px;
+}
+
+.personas .contenedor {
+    display: grid;
+}
+@media(min-width:683px){
+.personas .contenedor{     
+grid-template-columns: repeat(2,50%);
+}
+}
+@media(min-width:455px){
+.personas .contenedor{
+grid-template-columns: repeat(3,33.3%);
+}
+}
+@media(min-width:1366px){
+.personas .contenedor{
+
+grid-template-columns: repeat(4,25%);
+}
+.contenedor{
+ width: 1366px;
+}
+}
+@media(min-width:1200px){
+.contenedor{
+ width: 1200px;
+}
+}

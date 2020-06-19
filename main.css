@@ -23,44 +23,6 @@ iframe {
   height: 100vh;
 }
 
-.contenedor{ 
-  width:100%;
-    margin: auto;
-}
-img{
-    width: 100%;
-}
-.persona__columna{
-    margin: 5px; 
-}
-.personas .contenedor{
-    display: grid;
-    }
-@media(min-width:520px){
-    .personas .contenedor{     
-  grid-template-columns: repeat(2,50%);
-    }
-}
-@media(min-width:728px){
-   .personas .contenedor{
-  grid-template-columns: repeat(3,33.3%);
-    }
-}
-@media(min-width:1024px){
-   .personas .contenedor{
-    
-  grid-template-columns: repeat(4,25%);
-    }
-    .contenedor{
-         width: 1024px;
-    }
-}
-@media(min-width:1200px){
-    .contenedor{
-         width: 1200px;
-    }
-}
-
 header .row,
 footer .row {
   display: flex;
@@ -111,6 +73,7 @@ section .row img {
   margin: 10 20 30px;
   width: 100%;
 }
+ 
 
 .col-md-6 {
   margin: 0 0 30px;
