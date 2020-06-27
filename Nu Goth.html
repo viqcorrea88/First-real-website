@@ -14,7 +14,7 @@
             text-align: center;
         }
 
-        .contenedor {
+        .container {
             width: 100%;
             margin: auto;
         }
@@ -27,40 +27,15 @@
             margin: 5px;
         }
 
-        .personas .contenedor {
+        .persona .container {
             display: grid;
         }
-        @media(min-width:683px){
-    .personas .contenedor{     
-  grid-template-columns: repeat(2,50%);
-    }
-}
-@media(min-width:455px){
-   .personas .contenedor{
-  grid-template-columns: repeat(3,33.3%);
-    }
-}
-@media(min-width:1366px){
-   .personas .contenedor{
-    
-  grid-template-columns: repeat(4,25%);
-    }
-    .contenedor{
-         width: 1366px;
-    }
-}
-@media(min-width:1200px){
-    .contenedor{
-         width: 1200px;
-    }
-}
     </style>
 </head>
 
 <section class="container">
 
     <h2>Nu Goth</h2>
-    <div class="container">
         <article class="persona__columna">
             <img src="https://i.pinimg.com/564x/ec/f8/76/ecf8767a05ad084105f559e3cb31904a.jpg">
         </article>
@@ -97,6 +72,4 @@
         <article class="persona__columna">
             <img src="https://i.pinimg.com/564x/61/af/8a/61af8a19197d2d11c88c92c6d661da46.jpg">
         </article>
-
-    </div>
 </section>

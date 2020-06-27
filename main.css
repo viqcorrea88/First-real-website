@@ -41,6 +41,12 @@ header nav {
   justify-content: flex-end;
 }
 
+header h2 nav {
+  font-family: 'B612 Mono', sans-serif;
+  display: flex;
+  justify-content: flex-end;
+}
+
 header p {
   font-family: 'B612 Mono', sans-serif;
   padding: 0 20px;
