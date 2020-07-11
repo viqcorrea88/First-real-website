@@ -1,0 +1,25 @@
+{
+  "name": "first-real-website",
+  "version": "0.2.0",
+  "description": "a project of fashion blog",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/viqcorrea88/First-real-website.git"
+  },
+  "keywords": [
+    "fashion"
+  ],
+  "author": "victoria correa",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/viqcorrea88/First-real-website/issues"
+  },
+  "homepage": "https://github.com/viqcorrea88/First-real-website#readme",
+  "dependencies": {
+    "sass": "^1.26.10"
+  }
+}
